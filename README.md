@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Echo Video Calling App
 
-## Getting Started
+Welcome to the Echo Video Calling App! This application allows you to easily create, schedule, join, and manage video meetings. Whether you're planning a business conference, catching up with friends, or attending an online class, Echo has you covered.
 
-First, run the development server:
+#### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Instant Meetings**: Quickly create new meetings on the fly.
+- **Scheduled Meetings**: Plan and organize your meetings in advance.
+- **View Recordings**: Access and review your past meeting recordings.
+- **Join Meetings**: Easily join meetings using invite links.
+- **User Authentication**: Securely authenticate users using Clerk.
+- **Responsive Design**: Enjoy a seamless experience across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Stream Video SDK**: Provides the necessary tools for integrating video calling functionality.
+- **React**: A JavaScript library for building user interfaces.
+- **Clerk**: Handles user authentication and authorization.
+- **React DatePicker**: A flexible date and time picker component for React.
+- **Tailwind CSS**: A utility-first CSS framework for styling components.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Getting Started
 
-## Learn More
+To run the Echo Video Calling App locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies using `npm install`.
+3. Set up environment variables according to the provided `.env.example` file.
+4. Run the application using `npm run dev`.
+5. Access the application in your browser at `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Creating a Meeting**:
+   - Click on "New Meeting" to create a new meeting instantly.
+   - Select "Schedule Meetings" to plan and schedule meetings for later.
+2. **Joining a Meeting**:
+   - Choose "Join Meeting" and enter the meeting link to join an ongoing meeting.
+3. **Viewing Recordings**:
+   - Navigate to the "View Recordings" section to access and review past meeting recordings.
 
-## Deploy on Vercel
+#### Contributions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions to the Echo Video Calling App are welcome! Feel free to submit pull requests, report issues, or suggest new features to help improve the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### About
+
+Echo Video Calling App is developed and maintained by [Your Company Name]. For inquiries, contact [contact@example.com].
+
+---
+
+Thank you for using Echo Video Calling App! I hope you enjoy seamless video calling experiences with Echo.
