@@ -7,7 +7,7 @@ const SignInPage = () => {
     <main className="flex flex-col min-h-screen w-full items-center justify-center">
       <SignIn path="/sign-in" />
 
-      <Link href={"/"} className="px-6 py-4  rounded-lg m-2 bg-orange-400 ">
+      <Link href={"/"} className="px-6 py-4 rounded-lg m-2 bg-orange-400 ">
         Back To Home
       </Link>
     </main>
