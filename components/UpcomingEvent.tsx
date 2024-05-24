@@ -2,11 +2,12 @@
 import React, { useEffect, useState } from "react";
 import { useGetCalls } from "@/hooks/useGetCalls";
 import { CalendarFold, Loader2, SquareArrowUpRight } from "lucide-react";
-import { Call } from "@stream-io/video-react-sdk"; // Assuming this is the type of your event
+import { Call } from "@stream-io/video-react-sdk"; 
+// Assuming this is the type of your event
 
 const UpcomingEvent = () => {
   const { upComingCalls, isLoading } = useGetCalls();
-  const [upcomingEvent, setUpcomingEvent] = useState<Call | null>(null); // Specify the type here
+  const [upcomingEvent, setUpcomingEvent] = useState<Call | null>(null); 
 
   useEffect(() => {
     const fetchUpcomingEvent = async () => {

@@ -21,7 +21,6 @@ const Sidebar = () => {
             return (
               <Link
                 // className={`flex items-center gap-2 p-2 text-sm font-medium rounded-md ${isActive ? 'bg-dark-1' : 'hover:border-dashed hover:border-2 hover:border-gray-100 '}`}
-
                 key={link.label}
                 href={link.route}
                 className={cn(
